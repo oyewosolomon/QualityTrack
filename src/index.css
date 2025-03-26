@@ -24,6 +24,8 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 222 89% 51%;
     --radius: 0.75rem;
+    --font-oswald: 'Oswald', sans-serif;
+    --font-sans: 'ui-sans-serif', sans-serif;
   }
 
   .dark {
@@ -46,6 +48,8 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
+    --font-oswald: 'Oswald', sans-serif;
+    --font-sans: 'ui-sans-serif', sans-serif;
   }
 
   * {
@@ -53,6 +57,24 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+   /* Apply Oswald to headings and bold text */
+   h1, h2, h3, h4, h5, h6, strong, b {
+    font-family: var(--font-oswald);
+    @apply font-normal; /* Oswald looks best at normal weight */
+    letter-spacing: -0.015em; /* Slightly tighter tracking */
+  }
+
+  /* Keep system font for body text */
+  body, p, div, span {
+    font-family: var(--font-sans);
+  }
+
+  /* Optional: Create an Oswald utility class */
+  .font-display {
+    font-family: var(--font-oswald);
+    @apply tracking-tighter;
   }
 
   

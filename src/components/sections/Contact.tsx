@@ -14,18 +14,12 @@ const Contact = () => {
                 Ready to transform your quality control process? Contact us today to schedule a demo or speak with one of our experts.
               </p>
               <div className="space-y-4">
-                <div className="flex items-center gap-3 text-gray-600">
-                  <Phone className="w-5 h-5 text-blue-600" />
-                  +1 (800) 555-1234
-                </div>
+                
                 <div className="flex items-center gap-3 text-gray-600">
                   <Mail className="w-5 h-5 text-blue-600" />
-                  info@qualitytracksolutions.com
+                  hello@qtsoln.com
                 </div>
-                <div className="flex items-center gap-3 text-gray-600">
-                  <MapPin className="w-5 h-5 text-blue-600" />
-                  123 Innovation Drive, Tech City, TX 75001
-                </div>
+                
               </div>
             </div>
             <div className="lg:w-1/2">

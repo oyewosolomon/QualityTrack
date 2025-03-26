@@ -7,13 +7,13 @@ const CaseStudiesResources = () => {
       title: "Automotive Manufacturer Reduces Defects by 99%",
       company: "Leading Automotive Manufacturer",
       results: ["99% defect reduction", "35% waste reduction", "24/7 monitoring"],
-      image: "/api/placeholder/400/300"
+      image: "/images/q.webp"
     },
     {
       title: "Electronics Company Cuts Waste by 40%",
       company: "Global Electronics Manufacturer",
       results: ["40% waste reduction", "99.9% accuracy", "ROI in 6 months"],
-      image: "/api/placeholder/400/300"
+      image: "/images/r.jpg"
     }
   ];
 
