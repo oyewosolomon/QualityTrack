@@ -56,8 +56,8 @@ const Navbar = () => {
       }`}>
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-between h-20">
-            {/* Logo */}
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 flex items-center">
+            <img src="/favicon.svg" className='h-10' alt="QualityTrack" />
               <a href='/' className={`text-2xl font-bold ${isScrolled ? 'text-blue-900' : 'text-white'}`}>
                 QualityTrack
               </a>
